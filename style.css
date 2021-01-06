@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+}
+h2{
+    font-family: 'PT Sans', sans-serif;
+}
+p{
+    color:dimgray;
+    font-family: 'PT Sans', sans-serif;
+    text-align: justify;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+img{
+    width: 500px;
+}
+.menu-area{
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+}
+.menu-area ul{
+    float: right;
+}
+.menu-area ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 30px;
+}
+.header-area{
+    height: 500px;
+}
+.header-text{
+    width: 45%;
+    height: 400px;
+    float:left;
+    margin-left: 2%;
+    padding: 3%;
+}
+.header-img{
+    width: 45%;
+    height: 400px;
+    float:left;
+    margin-left: 2%;
+    padding-bottom: 60px;
+}
+.name-style{
+    color: #FF8367;
+    font-family: 'Yeon Sung', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.header-btn{
+    background-image: linear-gradient(180deg, #FA7261, #F56260);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+.about-area{
+    height: 500px;
+}
+.about-img{
+    width: 45%;
+    height:400px;
+    margin-left: 2%;
+    padding: 2%;
+    float:left;
+}
+.about-text{
+    width: 45%;
+    height:400px;
+    margin-left: 2%;
+    padding: 10px;
+    float:left;
+    margin-top: 150px;
+}
+.about-text h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.btn-section{
+    width: 150px;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border: 4px solid;
+    border-image: linear-gradient(45deg, #2645ac, #00ffff);
+    border-image-slice: 4;
+}
+.btn-section a{
+    font-size: 18px;
+}
+.btn-section img{
+    width: 20px;
+    height: 20px;
+    padding-right: 4px;
+}
+.project-area{
+    height: 700px;
+    background-color: #F8F9FC;
+}
+.project-heading{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.project-heading span{
+    color: #F46060;
+}
+.project-area img{
+    width: 330px;
+    height: 200px;
+    margin:10px;
+}
+.project-all{
+    width: 26%;
+    float:left;
+    padding:1%;
+    margin: 35px;
+    height: 350px;
+    box-shadow: 2px 2px 30px grey;
+    border-radius: 10px;
+}
+.skill-area{
+    height:600px;
+}
+.skill-part{
+    width: 26%;
+    float:left;
+    padding:1%;
+    margin: 35px;
+    height: 350px;
+    box-shadow: 2px 2px 30px grey;
+    border-radius: 10px;
+}
+.skill-part h2{
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 3px solid;
+    border-top: 3px solid;
+    border-image: linear-gradient(45deg, yellow, white, red);
+    border-image-slice: 4;
+}
+.skill-img{
+    width:100px;
+    height:100px;
+    margin-left: 115px;
+}
+.skill-area h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px 0 40px 0;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+.form-area{
+    width: 50%;
+    height: 500px;
+    margin:auto;
+    box-shadow: 2px 2px 30px grey;
+    border-radius: 10px;
+}
+.form-area h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+}
+.form-part p{
+    margin: 10px 0 0 60px;
+
+}
+input{
+    width:80%;
+    height: 40px;
+    margin-left: 60px;
+    border-radius: 5px;
+}
+.submit-btn{
+        margin: 30px 0 0 62px;
+        background-image: linear-gradient(60deg, yellow, red, orange);
+        font-family: 'PT Sans', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+}
+.footer-area{
+    height:400px;
+}
+.footer-first{
+    background-image: url(image/background.png);
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 800px;
+    margin: 40px 0 40px 0;
+}
+.footer-first h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0 20px 350px;
+    padding-top: 130px;
+    font-family: 'PT Sans', sans-serif;
+    color: #ffffff;
+}
+.chat-btn{
+    padding: 20px 30px;
+    background-image: linear-gradient(180deg, #e7403a, #e7403a);
+    margin-left: 250px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.footer-second h2{
+    text-align: center;
+    color:dimgray;
+    margin: 20px 0 40px 0;
+}
+.footer-second h1{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;;
+    margin-bottom: 30px;
+}
+.footer-icon{
+    margin-left: 600px;
+}
+.footer-icon img{
+    width:40px;
+    height: 40px;
+    border-radius:15px;
+    padding: 3px;
+}
